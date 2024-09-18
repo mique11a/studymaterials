@@ -1,0 +1,401 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>概统笔记1 | Hello there!  Welcome to my website! :)</title><meta name="author" content="Hu4n9j14JuN"><meta name="copyright" content="Hu4n9j14JuN"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="概率论统计笔记10.课程介绍任课教师：赵敏智 成绩组成 平时60   作业和到课情况 25     线下交作业      学在浙大5个讨论题 5    学在浙大3次测验 30     每次测验8道单选，2道多选       多选题少选或选错不得分       开启防作弊系统，只能在电脑上完成，不能在别的设备上进行       测验时间分别为秋学期第三周周日，冬学期第三周周六，冬学期第七周周五，内容">
+<meta property="og:type" content="article">
+<meta property="og:title" content="概统笔记1">
+<meta property="og:url" content="http://example.com/2024/09/13/2024-9-13-Fri-mor/index.html">
+<meta property="og:site_name" content="Hello there!  Welcome to my website! :)">
+<meta property="og:description" content="概率论统计笔记10.课程介绍任课教师：赵敏智 成绩组成 平时60   作业和到课情况 25     线下交作业      学在浙大5个讨论题 5    学在浙大3次测验 30     每次测验8道单选，2道多选       多选题少选或选错不得分       开启防作弊系统，只能在电脑上完成，不能在别的设备上进行       测验时间分别为秋学期第三周周日，冬学期第三周周六，冬学期第七周周五，内容">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2024-09-13T01:51:49.000Z">
+<meta property="article:modified_time" content="2024-09-18T14:46:48.075Z">
+<meta property="article:author" content="Hu4n9j14JuN">
+<meta property="article:tag" content="学习笔记">
+<meta property="article:tag" content="概统">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2024/09/13/2024-9-13-Fri-mor/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '概统笔记1',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-09-18 22:46:48'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">5</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Hello there!  Welcome to my website! :)"><span class="site-name">Hello there!  Welcome to my website! :)</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">概统笔记1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-09-13T01:51:49.000Z" title="Created 2024-09-13 09:51:49">2024-09-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-09-18T14:46:48.075Z" title="Updated 2024-09-18 22:46:48">2024-09-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/">概率论与数理统计</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="概统笔记1"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="概率论统计笔记1"><a href="#概率论统计笔记1" class="headerlink" title="概率论统计笔记1"></a>概率论统计笔记1</h1><h2 id="0-课程介绍"><a href="#0-课程介绍" class="headerlink" title="0.课程介绍"></a>0.课程介绍</h2><p>任课教师：<code>赵敏智</code></p>
+<h4 id="成绩组成"><a href="#成绩组成" class="headerlink" title="成绩组成"></a>成绩组成</h4><ul>
+<li>平时60 </li>
+<li><ul>
+<li>作业和到课情况 25</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>线下交作业</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li>学在浙大5个讨论题 5</li>
+</ul>
+</li>
+<li><ul>
+<li>学在浙大3次测验 30</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>每次测验8道单选，2道多选</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>多选题少选或选错不得分</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>开启防作弊系统，只能在电脑上完成，不能在别的设备上进行</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>测验时间分别为<code>秋学期第三周周日</code>，<code>冬学期第三周周六</code>，<code>冬学期第七周周五</code>，内容分别到<code>第二章</code>，<code>第四章</code>，<code>第七章</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>期末40，设置最低分</li>
+<li><ul>
+<li>范围设置到第八章</li>
+</ul>
+</li>
+</ul>
+<h2 id="1-样本空间与随机事件"><a href="#1-样本空间与随机事件" class="headerlink" title="1.样本空间与随机事件"></a>1.样本空间与随机事件</h2><p>世界上存在两种现象：</p>
+<ul>
+<li>确定性现象：结果确定</li>
+<li>不确定现象：结果不确定</li>
+</ul>
+<p><strong>概统是研究随机变量与数量规律的学科</strong><br><img src="/2024/09/13/2024-9-13-Fri-mor/%7BA737361A-09DC-41D3-9525-A425520CE931%7D.png" alt="alt text"><br>以抛硬币为例，<code>nH</code>表示正面<code>Head</code>向上的次数，<code>fnH</code>表示正面向上的<code>频率</code><br><strong>据图可知，不确定现象在个别实验中结果呈现不确定性，但在大量重复试验中其结果又具有统计规律</strong>  </p>
+<h4 id="随机试验与随机事件"><a href="#随机试验与随机事件" class="headerlink" title="随机试验与随机事件"></a>随机试验与随机事件</h4><p>对随机现象的观察记录实验成为<code>随机试验</code>，具有以下特性：</p>
+<ul>
+<li>可在相同条件下重复试验</li>
+<li>事先知道所有可能的结果</li>
+<li>试验前不知道发生哪一个结果</li>
+</ul>
+<p>随机试验E的<code>所有可能结果</code>构成的集合称为E的<code>样本空间</code>，记为S，S中的元素e为<code>样本点</code></p>
+<ul>
+<li>例如，抛硬币E的样本空间<code>S = &#123;正面，反面&#125;</code>，掷骰子的样本空间<code>S = &#123;1,2,3,4,5,6&#125;</code></li>
+<li>样本空间可以是有限的<code>掷硬币</code>，也可以是无限的<code>不考虑其他条件下的上车人数</code>；可以是可数的<code>上车人数</code>，也可以是不可数的<code>灯泡寿命</code></li>
+</ul>
+<p>随机事件：S的<code>子集A</code>为E的<code>随机事件</code>A，简称<code>事件</code>A</p>
+<ul>
+<li>当且仅当<code>A包含的一个样本点发生</code>称为<code>事件A发生</code></li>
+<li>一个样本点组成的<code>单点</code>集称为<code>基本事件</code></li>
+<li>每次事件S<code>全集</code>必然发生，称S为<code>必然事件</code></li>
+<li>每次<code>空集</code>不可能发生，称为<code>不可能事件</code></li>
+<li>事件有<code>包含</code>，<code>相等</code>两种关系，和集合中的定义相同</li>
+<li><ul>
+<li>若A包含于B，那么<code>A发生，B必定发生</code></li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li><img src="/2024/09/13/2024-9-13-Fri-mor/%7B87D28E20-F018-433A-968C-629D0B46FCEF%7D.png" alt="alt text"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li>若AB相等，那么<code>A包含于B</code>且<code>B包含于A</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="事件运算："><a href="#事件运算：" class="headerlink" title="事件运算："></a>事件运算：</h4><ul>
+<li>A与B的和事件,记为<code>A ∪ B</code></li>
+<li><ul>
+<li>等同集合运算中的并</li>
+</ul>
+</li>
+<li><ul>
+<li>表示A发生或B发生</li>
+</ul>
+</li>
+<li>A与B的积事件，记为<code>A ∩ B</code></li>
+<li><ul>
+<li>等同集合运算中的交</li>
+</ul>
+</li>
+<li><ul>
+<li>表示A,B同时发生</li>
+</ul>
+</li>
+<li><code>A ∩ B = 空集</code>,表示AB互不相容或互斥</li>
+<li><ul>
+<li>表示AB不会同时发生</li>
+</ul>
+</li>
+<li><code>A = B的补集</code>，称为A,B互逆，AB互为对立事件 </li>
+<li><ul>
+<li>表示A发生B一定不发生，A不发生B一定发生</li>
+</ul>
+</li>
+</ul>
+<p><em><strong>熟记达摩根定律！</strong></em></p>
+<h2 id="2-频率与概率"><a href="#2-频率与概率" class="headerlink" title="2.频率与概率"></a>2.频率与概率</h2><p><code>频率</code>用来衡量事件发生的<code>频繁程度</code></p>
+<ul>
+<li>不可能事件的频率是0.必然事件的频率是1</li>
+</ul>
+<h4 id="频率的性质："><a href="#频率的性质：" class="headerlink" title="频率的性质："></a>频率的性质：</h4><ul>
+<li>0 &lt;&#x3D; f &lt;&#x3D; 1</li>
+<li>若事件A1A2A3……<code>两两互斥</code>，那么A1 ∩ A2 ∩ A3……的频率是A1A2A3各自频率之和</li>
+<li><img src="/2024/09/13/2024-9-13-Fri-mor/%7B38A50A85-250E-4F31-A44C-2A56AB5213BF%7D.png" alt="alt text">   </li>
+<li><ul>
+<li>这一性质称为<code>可列可加性</code></li>
+</ul>
+</li>
+</ul>
+<p>当尝试次数趋于无穷大时，事件A的频率收敛于一个稳定的值<code>P(A)</code>，称为事件A的概率  </p>
+<ul>
+<li>据此，概率具有和频率相同的性质</li>
+</ul>
+<h4 id="正式的定义："><a href="#正式的定义：" class="headerlink" title="正式的定义："></a>正式的定义：</h4><ul>
+<li>对S中的事件A定义一个数P(A)，满足：  </li>
+<li><ul>
+<li>非负性： P(A) &gt;&#x3D; 0</li>
+</ul>
+</li>
+<li><ul>
+<li>规范性： P(S) &#x3D; 1</li>
+</ul>
+</li>
+<li><ul>
+<li>可列可加性：同上</li>
+</ul>
+</li>
+<li>则称P(A)为A的概率</li>
+</ul>
+<h4 id="概率的性质："><a href="#概率的性质：" class="headerlink" title="概率的性质："></a>概率的性质：</h4><ul>
+<li>P(∅) &#x3D; 0</li>
+<li>A的对立事件发生的概率 &#x3D; 1 - P(A) </li>
+<li>P(B-A) &#x3D; P(B) - P(B ∩ A) &#x3D; P(B ∪ A) - P(A)</li>
+<li>P(A ∪ B) &#x3D; P(A) + (B) - P(A ∩ B)</li>
+<li><ul>
+<li>推广：三个事件的并的公式</li>
+</ul>
+</li>
+<li><ul>
+<li><img src="/2024/09/13/2024-9-13-Fri-mor/%7B423377AD-95CD-47B1-AB04-81A8D1C50833%7D.png" alt="alt text"></li>
+</ul>
+</li>
+<li><ul>
+<li>推广：n个事件的并的公式</li>
+</ul>
+</li>
+<li><ul>
+<li><img src="/2024/09/13/2024-9-13-Fri-mor/%7B2FC8D8EA-B0CD-47AB-BEB6-9B2A4EB572F5%7D.png" alt="alt text"></li>
+</ul>
+</li>
+</ul>
+<h4 id="例题："><a href="#例题：" class="headerlink" title="例题："></a>例题：</h4><p><img src="/2024/09/13/2024-9-13-Fri-mor/%7B5A722E89-36F5-4841-8899-CF8C6494401E%7D.png" alt="alt text"><br>陷阱：<strong>什么是“至少两人参加？”</strong>   </p>
+<blockquote>
+<p>P(至少两人参加) &#x3D; P(AB ∪ BC ∪ AC)  </p>
+</blockquote>
+<h2 id="3-等可能概型-古典概型"><a href="#3-等可能概型-古典概型" class="headerlink" title="3.等可能概型(古典概型)"></a>3.等可能概型(古典概型)</h2><p>若试验E满足：  </p>
+<ul>
+<li>有限性：S中样本点有限</li>
+<li>等可能性：出现每一种结果的可能性相同</li>
+</ul>
+<p>那么称这种模型是等可能概型   </p>
+<blockquote>
+<p>tips</p>
+<blockquote>
+<p> 高中很经典的摸球等等模型都是古典概型，特点是球的大小相等，摸到每个球的概率是相等的，不是每种颜色结果的的概率是相等的！所以它是古典概型  </p>
+</blockquote>
+</blockquote>
+<p><em><strong>一个课外问题：生日不是随机分布的，部分月份出生的孩子明显多于其他月份，所以这应该不是古典概型？</strong></em>   </p>
+<h4 id="生日问题求解"><a href="#生日问题求解" class="headerlink" title="生日问题求解"></a>生日问题求解</h4><p>全班n个同学，第一个同学有365种选择，第二个为了不重复有364种……总共的情况有365^n个情况，不重复的有365*364 * …… * (365-(n-1))种，除一下就能得到结果了</p>
+<h4 id="抽签问题求解"><a href="#抽签问题求解" class="headerlink" title="抽签问题求解"></a>抽签问题求解</h4><p>问题：<br><img src="/2024/09/13/2024-9-13-Fri-mor/%7B483EA541-E0C2-4668-A9A7-A3E009253D61%7D.png" alt="alt text"><br>设抽取的顺序为一个排列，那么总共的排列有n！种，限定第k位是红球，相当于k位上a种取红球的方法 * 剩下来的n-1个球全排列，于是概率为：  </p>
+<blockquote>
+<p>P(A) &#x3D; a * (n-1)! &#x2F; n! &#x3D; a&#x2F;n   </p>
+</blockquote>
+<p>或将第k次取到的球号作为样本点，可以视为等概率事件，每个球抽到的概率相同，因此概率仍为a&#x2F;n</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="http://example.com">Hu4n9j14JuN</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="http://example.com/2024/09/13/2024-9-13-Fri-mor/">http://example.com/2024/09/13/2024-9-13-Fri-mor/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a><a class="post-meta__tags" href="/tags/%E6%A6%82%E7%BB%9F/">概统</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/09/14/2024-9-14-Sat-mor/" title="普物笔记3"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Previous</div><div class="prev_info">普物笔记3</div></div></a></div><div class="next-post pull-right"><a href="/2024/09/12/2024-9-12-Thu-mor/" title="马原笔记1"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Next</div><div class="next_info">马原笔记1</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2024/09/10/2024-9-10-Tue-mor/" title="ADS笔记1"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-10</div><div class="title">ADS笔记1</div></div></a></div><div><a href="/2024/09/11/2024-9-11-Wed-mor/" title="普物笔记2"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-11</div><div class="title">普物笔记2</div></div></a></div><div><a href="/2024/09/12/2024-9-12-Thu-mor/" title="马原笔记1"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-12</div><div class="title">马原笔记1</div></div></a></div><div><a href="/2024/09/14/2024-9-14-Sat-aft/" title="计组笔记2"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-14</div><div class="title">计组笔记2</div></div></a></div><div><a href="/2024/09/14/2024-9-14-Sat-mor/" title="普物笔记3"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-14</div><div class="title">普物笔记3</div></div></a></div><div><a href="/2024/09/18/2024-9-18-Wed-mor-1/" title="普物笔记4"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-18</div><div class="title">普物笔记4</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Hu4n9j14JuN</div><div class="author-info__description">网站刚刚搭好，加之短学期结束后删了一堆资料，现在网站上的资料较少，见谅~</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E8%AE%BA%E7%BB%9F%E8%AE%A1%E7%AC%94%E8%AE%B01"><span class="toc-number">1.</span> <span class="toc-text">概率论统计笔记1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.1.</span> <span class="toc-text">0.课程介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%88%90%E7%BB%A9%E7%BB%84%E6%88%90"><span class="toc-number">1.1.0.1.</span> <span class="toc-text">成绩组成</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4%E4%B8%8E%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6"><span class="toc-number">1.2.</span> <span class="toc-text">1.样本空间与随机事件</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C%E4%B8%8E%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6"><span class="toc-number">1.2.0.1.</span> <span class="toc-text">随机试验与随机事件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8B%E4%BB%B6%E8%BF%90%E7%AE%97%EF%BC%9A"><span class="toc-number">1.2.0.2.</span> <span class="toc-text">事件运算：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E9%A2%91%E7%8E%87%E4%B8%8E%E6%A6%82%E7%8E%87"><span class="toc-number">1.3.</span> <span class="toc-text">2.频率与概率</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A2%91%E7%8E%87%E7%9A%84%E6%80%A7%E8%B4%A8%EF%BC%9A"><span class="toc-number">1.3.0.1.</span> <span class="toc-text">频率的性质：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AD%A3%E5%BC%8F%E7%9A%84%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="toc-number">1.3.0.2.</span> <span class="toc-text">正式的定义：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E7%9A%84%E6%80%A7%E8%B4%A8%EF%BC%9A"><span class="toc-number">1.3.0.3.</span> <span class="toc-text">概率的性质：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BE%8B%E9%A2%98%EF%BC%9A"><span class="toc-number">1.3.0.4.</span> <span class="toc-text">例题：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E7%AD%89%E5%8F%AF%E8%83%BD%E6%A6%82%E5%9E%8B-%E5%8F%A4%E5%85%B8%E6%A6%82%E5%9E%8B"><span class="toc-number">1.4.</span> <span class="toc-text">3.等可能概型(古典概型)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%9F%E6%97%A5%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3"><span class="toc-number">1.4.0.1.</span> <span class="toc-text">生日问题求解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8A%BD%E7%AD%BE%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3"><span class="toc-number">1.4.0.2.</span> <span class="toc-text">抽签问题求解</span></a></li></ol></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/18/%E6%96%B0%E4%B8%AD%E5%9B%BD%E4%B8%8A%E8%AF%BE%E5%8F%B2%E8%B5%84%E6%96%99/" title="新中国上课史资料">新中国上课史资料</a><time datetime="2024-09-18T11:08:25.000Z" title="Created 2024-09-18 19:08:25">2024-09-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/18/2024-9-18-Wed-mor-2/" title="计组笔记3">计组笔记3</a><time datetime="2024-09-18T02:01:43.000Z" title="Created 2024-09-18 10:01:43">2024-09-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/18/2024-9-18-Wed-mor-1/" title="普物笔记4">普物笔记4</a><time datetime="2024-09-18T00:04:34.000Z" title="Created 2024-09-18 08:04:34">2024-09-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/14/2024-9-14-Sat-aft/" title="计组笔记2">计组笔记2</a><time datetime="2024-09-14T05:26:04.000Z" title="Created 2024-09-14 13:26:04">2024-09-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/14/2024-9-14-Sat-mor/" title="普物笔记3">普物笔记3</a><time datetime="2024-09-14T01:55:39.000Z" title="Created 2024-09-14 09:55:39">2024-09-14</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Hu4n9j14JuN</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/copy-tex.min.js"></script><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', { class: 'katex-wrap'})
+  })
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
